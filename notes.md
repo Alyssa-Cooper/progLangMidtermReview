@@ -37,3 +37,10 @@ _Hallmarks of functional languages:_
 - Functions are first-class citizens, can be used as parameters,function results, etc.
 - Minimal use of assignments and side-effects
 
+_Patterns_
+- Not just for match, can use in L assignment 
+- _ character matches anything but binds to nothing
+- single variable matches and binds to anything
+- tuples match tuple of right size that contents match sub-patterns
+- list matches any list of right size whose contents match the sub-patterns
+- :: patterns matches any non-empty list who head and tail match sub-patterns
